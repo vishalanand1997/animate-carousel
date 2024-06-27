@@ -1,0 +1,41 @@
+.heading {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 97.52px;
+  text-align: center;
+  margin: 0px;
+}
+
+.subHeading {
+  color: #ffffff;
+  margin: 0px;
+}
+.cardContainer {
+  width: 300px;
+  height: 250px;
+  margin: 50px 10px;
+  border-radius: 10px;
+  background-color: #292929;
+}
+.carouselItemContainer {
+  display: flex;
+  margin-top: 20px;
+  min-height: 400px;
+  width: 100%;
+}
+.image {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.name {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 8px;
+}
+.bio {
+  color: #ffffff;
+  padding: 5px;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 20px;
+}
