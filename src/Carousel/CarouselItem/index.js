@@ -9,7 +9,6 @@ function CarouselItem(props) {
   const checkOddEven = () => {
     return (index + 1) % 2 === 0 ? "even" : "odd";
   };
-  console.log(checkOddEven(), index + 1);
   useEffect(() => {
     const containerStyle = CarouselStyle.cardContainer;
     const timer = setTimeout(() => {
