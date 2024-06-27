@@ -19,6 +19,10 @@ const list = [
     bio: " As a Freelancer, managing invoices and chasing payments was a constant headache. Now, with automated and secure payment I am getting paid on time, every time.",
   },
   {
+    name: "Fisher",
+    bio: " As a Freelancer, managing invoices and chasing payments was a constant headache. Now, with automated and secure payment I am getting paid on time, every time.",
+  },
+  {
     name: "Jacob Jones",
     bio: "As a budding startup, we sought a financial solution that was simple, secure, and scalable. Swift Revel checked all the boxes, enabling focus on growth.  ",
   },
@@ -47,6 +51,8 @@ function Carousel() {
       </header>
       <main className={CarouselStyle.carouselItemContainer}>
         <AliceCarousel
+          autoPlay
+          infinite
           mouseTracking
           items={items}
           paddingLeft={50}
@@ -54,9 +60,8 @@ function Carousel() {
           responsive={responsive}
           disableDotsControls
           disableButtonsControls
-          autoPlay
-          autoPlayInterval={500}
-          animationDuration={500}
+          autoPlayInterval={1000}
+          animationDuration={1000}
         />
       </main>
     </div>
